@@ -13,12 +13,12 @@ sudo docker ps
 ## Структура проекта
 
 ```
-- **X5-hackathon-ner/**
-  - `app.py`                 - FastAPI приложение
-  - `ner_model_v4_best/`     - Папка с обученной моделью
-  - `utils/`                 - Вспомогательные функции
-  - `requirements.txt`       - Список зависимостей
-  - `Dockerfile`             - Конфигурация для сборки Docker-образа
-  - `README.md`              - Документация проекта
-  - `model_training.ipynb`   - Jupyter Notebook для обучения модели
+X5-hackathon-ner/
+├── app.py                  - FastAPI приложение
+├── ner_model_v4_best/      - Папка с обученной моделью
+├── utils/                  - Вспомогательные функции
+├── requirements.txt        - Список зависимостей
+├── Dockerfile              - Конфигурация для сборки Docker-образа
+├── README.md               - Документация проекта
+└── model_training.ipynb    - Jupyter Notebook для обучения модели
 ```
