@@ -1,8 +1,5 @@
 ## Развёртывание сервиса в облаке
 
-
-# Развёртывание сервиса в облаке
-
 ```bash
 git clone https://github.com/HumanAlone/X5-hackathon-ner
 cd X5-hackathon-ner
@@ -15,12 +12,12 @@ sudo docker ps
 
 ## Структура проекта
 
-X5-hackathon-ner/
-├── app.py                 # FastAPI приложение  
-├── ner_model_v4_best/     # Папка с моделью  
-├── utils/                 # Вспомогательные функции  
-├── requirements.txt       # Зависимости  
-├── Dockerfile             # Конфигурация Docker  
-├── README.MD              # Документация  
-└── model_training.ipynb   # Обучение модели  
+- **X5-hackathon-ner/**
+  - `app.py` — FastAPI приложение
+  - `ner_model_v4_best/` — Папка с обученной моделью
+  - `utils/` — Вспомогательные функции
+  - `requirements.txt` — Список зависимостей
+  - `Dockerfile` — Конфигурация для сборки Docker-образа
+  - `README.md` — Документация проекта
+  - `model_training.ipynb` — Jupyter Notebook для обучения модели
 
